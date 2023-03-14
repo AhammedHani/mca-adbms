@@ -1,6 +1,6 @@
 create database student11;
 use student11;
-create table details(id int,name varchar(10),address varchar(10),mathematics int,physics int,computer_science int);
+create table details(id int,name varchar(10),address varchar(20),mathematics int,physics int,computer_science int);
 insert into details value(321,"fathima","muttanchery",150,150,150);
 insert into details value(322,"hani","kozhikode",149,139,109);
 insert into details value(323,"akash","kozhikode",190,198,98);
