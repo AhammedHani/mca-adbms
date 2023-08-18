@@ -18,6 +18,7 @@ begin
 insert into del_phonebook (pname,mobno,modify_date)values(OLD.pname,OLD.mobno,sysdate());
 end;
 //
+  
 select * from phonebook;
 delete from phonebook where pname='jain';
 select * from phonebook;
